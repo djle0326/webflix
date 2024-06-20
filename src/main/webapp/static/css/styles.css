@@ -151,9 +151,10 @@ table img {
 /* Ensure table cells don't expand beyond a certain size */
 table td, table th {
     padding: 10px; /* Adjust padding as necessary */
-    overflow: hidden; /* Prevent overflow */
+    overflow: visible; /* Prevent overflow */
     text-align: center; /* Center content */
     vertical-align: middle; /* Center content vertically */
+    width: auto;
 }
 
 /* Ensure overview column fits within cell */
@@ -173,3 +174,31 @@ body {
 h1, h3, p, a {
     color: white;
 }
+
+    /* Fixed size for images and ensure they fit within the cell */
+    table img {
+        width: 100px; /* Fixed width */
+        height: 150px; /* Fixed height */
+        object-fit: cover; /* Maintain aspect ratio and cover the area */
+    }
+    table td, table th {
+        padding: 10px; /* Adjust padding as necessary */
+        text-align: center; /* Center content */
+        vertical-align: middle; /* Center content vertically */
+        overflow: hidden; /* Prevent overflow */
+    }
+    /* Truncate long text with ellipsis */
+    .truncate {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 150px; /* Adjust as necessary */
+    }
+    body {
+        background-color: #343434;
+    }
+    h1, h3, p, a {
+        color: white;
+    }
+
+
