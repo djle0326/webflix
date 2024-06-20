@@ -244,56 +244,7 @@ width: 100%;
             </ul>
           </li>
         
-          <li style="list-style-type: none;">
-            출현배우
-            <ul>
-              <li><a href="">이하늬</a></li>
-              <li><a href="">정우성</a></li>
-              <li><a href="">황정민</a></li>
-              <li><a href="">류준열</a></li>
-              <li><a href="">임시완</a></li>
-              <li><a href="">정해인</a></li>
-              <li><a href="">박서준</a></li>
-              <li><a href="">김태리</a></li>
-              <li><a href="">고윤정</a></li>
-              <li><a href="">공효진</a></li>
-              <li><a href="">김윤석</a></li>
-              <li><a href="">이병헌</a></li>
-              <li><a href="">이영애</a></li>
-              <li><a href="">김혜수</a></li>
-              <li><a href="">송하윤</a></li>
-              <li><a href="">이제훈</a></li>
-              <li><a href="">서인국</a></li>
-              <li><a href="">이정재</a></li>
-              <li><a href="">한효주</a></li>
-              <li><a href="">조이현</a></li>
-              <li><a href="">조인성</a></li>
-              <li><a href="">박보영</a></li>
-              <li><a href="">이성민</a></li>
-              <li><a href="">이이경</a></li>
-              <li><a href="">고민시</a></li>
-              <li><a href="">김남길</a></li>
-              <li><a href="">정다은</a></li>
-              <li><a href="">마동석</a></li>
-              <li><a href="">이종석</a></li>
-              <li><a href="">지승현</a></li>
-              <li><a href="">송강호</a></li>
-              <li><a href="">설경구</a></li>
-            </ul>
-          </li>
-        
-          <li style="list-style-type: none;">
-            연출감독
-            <ul>
-              <li><a href="">봉준호</a></li>
-              <li><a href="">박찬욱</a></li>
-              <li><a href="">이병헌</a></li>
-              <li><a href="">류승완</a></li>
-              <li><a href="">최동훈</a></li>
-              <li><a href="">장재현</a></li>
-              <li><a href="">연상호</a></li>
-            </ul>
-          </li>
+          
         
         </ul>
       </div>
@@ -303,11 +254,10 @@ width: 100%;
         <h3 id="top">TOP8</h3>
         <table id="movieposter">
             <tr>
-                <td><h1>${indexName}</h1><img src="../../resources/images/하이큐.jpg" width="267pt" height="385pt"></td>
+                <td><img src="../../resources/images/하이큐.jpg" width="267pt" height="385pt"></td>
                 <td><img src="../../resources/images/하이큐.jpg" width="267pt" height="385pt"></td>
                 <td><img src="../../resources/images/그녀가죽었다.jpg" width="267pt" height="385pt"></td>
-                <td><img src="../../resources/images/퓨리오사.jpg" width="267pt" height="385pt"></td>
-            </tr>
+                <td><img src="../../resources/images/퓨리오사.jpg" width="267pt" height="385pt"></td></tr>
             <tr>
                 <td><img src="../../resources/images/청춘18.jpg" width="267pt" height="385pt"></td>
                 <td><img src="../../resources/images/설계자.jpg" width="267pt" height="385pt"></td>
@@ -331,8 +281,8 @@ width: 100%;
           <tbody>
               <tr>
                   <td>1</td>
-                  <td>${userId}</td>
-                  <td>${password} </td>
+                  <td>범죄도시4 재밌다</td>
+                  <td>마동석12</td>
                   <td>24.05.10</td>
                   <td>1</td>
                   <td>1</td>
