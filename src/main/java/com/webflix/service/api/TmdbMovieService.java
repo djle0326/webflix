@@ -3,12 +3,13 @@ package com.webflix.service.api;
 
 import org.json.simple.JSONArray;
 
-import com.webflix.service.MovieService;
+import com.webflix.service.IndexService;
+import com.webflix.service.api.Movie.MovieJsonParser;
 
-public class TmdbMovieService implements MovieService {
+public class TmdbMovieService implements IndexService {
 	
     private ApiHttpRequest httpRequest;
-    private JsonParser jsonParser;
+    private MovieJsonParser jsonParser;
 
 	@Override
 	public JSONArray getMovies() throws Exception {

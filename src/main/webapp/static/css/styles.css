@@ -140,3 +140,36 @@ nav {
     height: 100%;
     object-fit: cover;
 }
+
+/* Ensure images fit uniformly within table cells */
+table img {
+    width: 100px; /* Adjust size as necessary */
+    height: 150px; /* Maintain aspect ratio */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+/* Ensure table cells don't expand beyond a certain size */
+table td, table th {
+    padding: 10px; /* Adjust padding as necessary */
+    overflow: hidden; /* Prevent overflow */
+    text-align: center; /* Center content */
+    vertical-align: middle; /* Center content vertically */
+}
+
+/* Ensure overview column fits within cell */
+.overview-column {
+    max-width: 200px; /* Adjust as necessary */
+    height: 3em; /* Fixed height */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+body {
+    background-color: #343434;
+}
+
+h1, h3, p, a {
+    color: white;
+}

@@ -5,7 +5,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-public class JsonParsor {
+public class IndexJsonParser {
     public JSONArray parseMovies(String jsonResponse) throws ParseException {
         JSONParser parser = new JSONParser();
         JSONObject jsonObject = (JSONObject) parser.parse(jsonResponse);

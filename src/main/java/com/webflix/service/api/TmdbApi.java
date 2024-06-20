@@ -3,14 +3,15 @@ package com.webflix.service.api;
 
 import org.json.simple.JSONArray;
 
-import com.webflix.service.MovieService;
+import com.webflix.service.IndexService;
+import com.webflix.service.api.Movie.MovieJsonParser;
 
-public class TmdbApi implements MovieService{
+public class TmdbApi implements IndexService{
 	
     private ApiHttpRequest httpRequest;
-    private JsonParser jsonParser;
+    private IndexJsonParser jsonParser;
 
-    public TmdbApi(ApiHttpRequest httpRequest, JsonParser jsonParser) {
+    public TmdbApi(ApiHttpRequest httpRequest, IndexJsonParser jsonParser) {
         this.httpRequest = httpRequest;
         this.jsonParser = jsonParser;
     }

@@ -12,17 +12,18 @@ import org.json.simple.JSONArray;
 
 import com.webflix.controller.Controller;
 import com.webflix.controller.View;
-import com.webflix.service.MovieService;
+import com.webflix.service.IndexService;
 import com.webflix.service.api.ApiHttpRequest;
-import com.webflix.service.api.JsonParser;
+import com.webflix.service.api.IndexJsonParser;
 import com.webflix.service.api.TmdbApi;
 import com.webflix.service.api.TmdbMovieService;
+import com.webflix.service.api.Movie.MovieJsonParser;
 
 public class MainPage implements Controller {
-    private MovieService movieService;
+    private TmdbApi movieService;
 
     public MainPage() {
-        this.movieService = new TmdbApi(new ApiHttpRequest(), new JsonParser());
+        this.movieService = new TmdbApi(new ApiHttpRequest(), new IndexJsonParser());
     }
 
     @Override

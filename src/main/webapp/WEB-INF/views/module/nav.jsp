@@ -5,10 +5,11 @@
       <div class="nav_background">
         <ul class="nav_none_list">
           <li>
-            <a href="/">메인 페이지</a>
+            <a href="/webflix">메인 페이지</a>
           </li>
           <li>
-            <a href="/webflix/popular/drama">인기 드라마</a>
+            <p><a href="/webflix/popular/drama">넷플릭스 인기 드라마</a></p>
+            <p><a href="/webflix/popular/movie">넷플릭스 인기 영화</a></p>
           </li>
         </ul>
       </div>  

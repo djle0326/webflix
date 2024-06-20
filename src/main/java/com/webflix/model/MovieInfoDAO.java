@@ -15,7 +15,7 @@ public class MovieInfoDAO {
 
     private  MovieInfoDAO() {
         // JDBC 연결 설정 초기화
-        this.con = JdbcConnectUtil.getConnection();
+        con = JdbcConnectUtil.getConnection();
     }
 
     public static MovieInfoDAO getInstance() {

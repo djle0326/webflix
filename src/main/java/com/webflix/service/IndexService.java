@@ -2,6 +2,6 @@ package com.webflix.service;
 
 import org.json.simple.JSONArray;
 
-public interface MovieService {
+public interface IndexService {
 	JSONArray getMovies() throws Exception;
 }
