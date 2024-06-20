@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-package com.webflix.controller.upload;
-
-public class UploadForm {
-
-}
-||||||| empty tree
-=======
 package com.webflix.controller.upload;
 
 import java.util.Map;
@@ -21,4 +13,3 @@ public class UploadForm implements Controller {
 	
 	
 }
->>>>>>> 8a2041f9832ee1aef056c9cd9bee8e299cedb51e
