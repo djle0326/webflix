@@ -9,6 +9,5 @@ import javax.servlet.http.HttpServletResponse;
 
 public interface Controller {
 	
-//	View process(HttpServletRequest request, HttpServletResponse resonse) throws ServletException, IOException;
 	String process(Map<String, String> paramMap, Map<String, Object> model);
 }

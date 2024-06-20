@@ -10,9 +10,15 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.webflix.controller.PopularMovie.PopularMovie;
+<<<<<<< HEAD
+=======
+import com.webflix.controller.PopularMovie.PopularMovie;
+>>>>>>> refs/heads/dongjun
 import com.webflix.controller.login.LoginForm;
 import com.webflix.controller.login.LoginProcess;
 import com.webflix.controller.mainpage.MainPage;
+import com.webflix.controller.popularDrama.PopularDrama;
 
 @WebServlet(name =  "frontController", urlPatterns = "/webflix/*")
 public class FrontConrtoller extends HttpServlet{
@@ -24,6 +30,8 @@ public class FrontConrtoller extends HttpServlet{
 		uriMap.put("/webflix", new MainPage());
 		uriMap.put("/webflix/login", new LoginForm());
 		uriMap.put("/webflix/login.do", new LoginProcess());
+		uriMap.put("/webflix/popular/drama", new PopularDrama());
+		uriMap.put("/webflix/popular/movie", new PopularMovie());
 	}
 
 	@Override
@@ -59,5 +67,4 @@ public class FrontConrtoller extends HttpServlet{
 	private View viewResolver(String viewName) {
 		return new View("/WEB-INF/views/" + viewName + ".jsp");
 	}
-	
 }
