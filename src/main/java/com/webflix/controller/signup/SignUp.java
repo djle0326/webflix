@@ -1,15 +1,14 @@
-package com.webflix.controller.upload;
+package com.webflix.controller.signup;
 
 import java.util.Map;
 
 import com.webflix.controller.Controller;
 
-public class UploadForm implements Controller {
+public class SignUp implements Controller {
 
 	@Override
 	public String process(Map<String, String> paramMap, Map<String, Object> model) {
-		return "upload-from";
+		return "signup-form";
 	}
-	
-	
+
 }
