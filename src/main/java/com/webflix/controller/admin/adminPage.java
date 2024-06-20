@@ -21,8 +21,7 @@ public class adminPage implements Controller {
             List<UserDTO> admins = userDAO.getAdmins();
             List<UserDTO> users = userDAO.getUsers();
             List<UserDTO> allArticles = userDAO.getAllArticles();
-            
-            // 데이터를 request 객체에 설정하여 JSP에서 사용할 수 있도록 합니다.
+        
             request.setAttribute("admins", admins);
             request.setAttribute("users", users);
             request.setAttribute("allArticles", allArticles);
